@@ -56,7 +56,7 @@ static uint32_t vgem_resolve_format(uint32_t format, uint64_t flags)
 }
 
 const struct backend backend_vgem = {
-	.name = "vgem",
+	.name = "sun4i-drm",
 	.init = vgem_init,
 	.bo_create = vgem_bo_create,
 	.bo_destroy = drv_dumb_bo_destroy,
